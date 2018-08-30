@@ -72,10 +72,10 @@
                                                                         <constraint firstItem="F3Z-2A-Ujl" firstAttribute="centerY" secondItem="67W-ea-9jz" secondAttribute="centerY" id="znV-kK-L3f"/>
                                                                     </constraints>
                                                                 </view>
-                                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUh-6m-bPY">
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUh-6m-bPY">
                                                                     <rect key="frame" x="0.0" y="55" width="325" height="113"/>
                                                                     <subviews>
-                                                                        <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="C0H-2f-zoD">
+                                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="C0H-2f-zoD">
                                                                             <rect key="frame" x="0.0" y="0.0" width="325" height="113"/>
                                                                         </stackView>
                                                                     </subviews>

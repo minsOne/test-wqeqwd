@@ -37,7 +37,7 @@ extension ViewController: UITableViewDelegate {
         
         cell.state = .expanded
         dataSource.addExpandedIndexPath(indexPath)
-        
+//        tableView.reloadData()
         tableView.beginUpdates()
         tableView.endUpdates()
     }
@@ -47,7 +47,7 @@ extension ViewController: UITableViewDelegate {
      
         cell.state = .collapsed
         dataSource.removeExpandedIndexPath(indexPath)
-        
+//        tableView.reloadData()
         tableView.beginUpdates()
         tableView.endUpdates()
     }
