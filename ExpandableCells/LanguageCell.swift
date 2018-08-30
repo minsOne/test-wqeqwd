@@ -68,6 +68,8 @@ final class LanguageCell: UITableViewCell {
         UIView.animate(withDuration: 0.3) {
             self.stackView.arrangedSubviews[self.expandedViewIndex].isHidden = self.stateIsCollapsed()
             self.stackView.arrangedSubviews[self.expandedViewIndex].alpha = self.stateIsCollapsed() ? 0 : 1
+            self.stackView.layoutIfNeeded()
+
         }
         carret.image = state.carretImage
     }
